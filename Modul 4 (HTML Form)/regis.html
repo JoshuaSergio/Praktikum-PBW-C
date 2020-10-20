@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tugas 4 Joshua (HTML Form)</title>
+</head>
+<body>
+	<center>
+		<h2>Halaman Registrasi<br> 
+		Mahasiswa Universitas Udayana</h2>
+		<form action="proses.php" method="GET">
+			<fieldset>
+			<legend>Registrasi</legend>
+			<p>
+				<label for="nama">Nama Lengkap</label><br>
+				<input type="text" name="nama" placeholder="Nama Lengkap...">
+			</p>
+			<p>
+				<label>Jenis Kelamin</label><br>
+				<input type="radio" id="lakilaki" name="jk" value="lakilaki">
+				<label for="lakilaki">Laki-Laki</label>
+				<input type="radio" id="peremupuan" name="jk" value="perempuan">
+				<label for="perempuan">Perempuan</label>
+				<input type="radio" id="lain" name="jk" value="lain">
+				<label for="lain">Lainnya</label>
+			</p>	
+			<p>
+				<label>Tempat Kuliah</label><br>
+				<input type="checkbox" id="bukit" name="bukit" value="bukit">
+				<label for="bukit">Kampus Bukit</label>	
+				<input type="checkbox" id="sudirman" name="sudirman" value="sudirman">
+				<label for="Sudirman">Kampus Sudirman</label>
+				<input type="checkbox" id="sanglah" name="sanglah" value="sanglah">
+				<label for="sanglah">Kampus Sanglah</label>		
+			</p>
+			<p>
+				<label>Agama</label><br>
+				<select name="Agama">
+					<option value="hindu">Hindu</option>
+					<option value="kristen">Kristen Protestan</option>
+					<option value="islam">Islam</option>
+					<option value="katolik">Katolik</option>
+					<option value="buddha">Buddha</option>
+					<option value="konghucu">Konghucu</option>
+				</select>
+			</p>
+			<p>
+				<label>Email</label><br>
+				<input type="text" name="email" placeholder="Email anda...">
+			</p>
+			<p>
+				<label>Password</label><br>
+				<input type="password" name="password" placeholder="Password anda...">
+			</p>
+			<p>
+				<label>Biografi Singkat</label><br>
+				<textarea name="biografi" placeholder="Masukkan biografi singkat anda..."></textarea>
+			</p>
+			<p>
+				<label>Upload Foto Formal</label><br><br>
+				<input type="file" name="foto">
+			</p>
+			<p>
+				<input type="submit" name="submit" value="Daftar">
+			</p>
+			</fieldset>	
+		</form>
+	</center>
+</body>
+</html>
