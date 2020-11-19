@@ -1,0 +1,15 @@
+form{
+	float: left;
+}
+input{
+	width:150px;
+  	padding:20px;
+	border:1px solid #dee7ec;
+
+}
+button{
+	margin: 5px;
+    padding: 30px;
+    background-color: grey ;
+    color: white;
+}
