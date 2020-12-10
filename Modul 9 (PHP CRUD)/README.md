@@ -1,11 +1,12 @@
 Data untuk Login
 
-Admin ||
+Admin
 
 Username : admin
 Password : admin123
 
-Pegawai ||
+
+Pegawai
 
 Username : pegawai
 Password : pegawai123
